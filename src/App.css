@@ -1,0 +1,25 @@
+@import url('./css/background.css');
+@import url('./css/history.css');
+@import url('./css/vidpho.css');
+@import url('./css/gallery.css');
+@import url('./css/vision.css');
+@import url('./css/path.css');
+@import url('./css/fadedCards.css');
+@import url('./css/tokenomics.css');
+@import url('./css/merchandise.css');
+@import url('./css/games.css');
+@import url('./css/gameprev.css');
+@import url('./css/socialmedia.css');
+@import url('./css/gamepage.css');
+@import url('./css/gamepageToggle.css');
+@import url('./css/gamepageToggle2.css');
+@import url('./css/gamepage2.css');
+@import url('./css/swiperEdit.css');
+@font-face{
+    font-family: myFont;
+    src: url(./assets/font/CHEESEBU.TTF);
+}
+@font-face{
+    font-family: myFontGame;
+    src: url(./assets/font/Baron\ Kuffner.otf);
+}

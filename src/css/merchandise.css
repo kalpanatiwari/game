@@ -1,0 +1,29 @@
+.merch{
+    width: 50%;
+    margin: auto;
+    @media screen and (max-width:1000px) {
+        width:90%;
+    }
+}
+.background-image{
+    border-radius: 20px;
+    position: absolute;
+    
+}
+.front-image{
+    border-radius: 20px;
+    position: relative;
+
+}
+.coming-soon{
+    color: #2A2027;
+    position: absolute;
+    top: 10%;
+    font-weight: 900;
+    font-size: 1.5vw;
+    right: 10%;
+    font-family: "Montserrat", sans-serif;
+    @media screen and (max-width:1000px) {
+       font-size: 2vw;
+    }
+}

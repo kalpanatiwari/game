@@ -1,0 +1,149 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: transparent;
+  }
+  html::-webkit-scrollbar{
+    width: 10px;
+  }
+  html::-webkit-scrollbar-track{
+    background: transparent;
+  }
+  html::-webkit-scrollbar-thumb{
+    background-color: #15ff00b6;
+    border-radius: 20px;
+  }
+  .home-image{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+  }
+  .home-wrapper-1 {
+    position: relative;
+   /* Prevent scrollbars if necessary */
+  }
+
+  .background {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0; /* Ensure it's behind other content */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: filter 0.3s ease; /* Smooth transition for filter */
+  }
+  
+.home-wrapper-2{
+    height: 80vh;
+}
+  .content {
+    position: absolute; /* To keep content on top of overlay */
+    z-index: 2; 
+    width: 90vw;
+    margin-left: 5vw;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-right: 5vw;
+    height: 95vh;
+    margin-top: -15vh;
+    overflow-y: scroll;
+    background-color: white;
+    /* Ensure content is above both the background and overlay */
+  }
+  
+  
+
+.gradient-text{
+    top: 0;
+    position: fixed;
+    left: 15vw;
+    right: 15vw;
+    border: 11px 0px 0px 0px;
+    font-family: myFont;
+    opacity: 0px;
+    font-size: 7vw;
+    font-weight: 400;
+    line-height: 100px;
+    background: linear-gradient(to bottom, #FFF280 0%, #7EFF5E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(7px 7px black);
+    @media screen and (max-width:800px) {
+      font-size: 15vw;
+      text-align: center;
+    }
+}
+.description{
+    margin-top: -30vh;
+    width: 100vw;
+    z-index: 1;
+    position: fixed;
+    background: #181C27;
+    padding-left: 6vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 6vw;
+    font-size: 2.5vw;
+    color: white;
+    font-family: myFont;
+    @media screen and (max-width:800px) {
+      font-size: 5vw;
+      margin-top: -40vh;
+    }
+}
+.description-short{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 30px;
+}
+.description-short p{
+    background: linear-gradient(180deg, #FFF280 8.61%, #FFA800 36.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home-image-wrapper {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.home-image {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* Large screens */
+@media screen and (min-width: 1000px) {
+  .home-image {
+    background-image: url("../assets/background.png");
+  }
+}
+
+/* Medium screens */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  .home-image {
+    background-image: url("../assets/background.png");
+  }
+}
+
+/* Small screens */
+@media screen and (max-width: 767px) {
+  .home-image {
+    background-image: url("../assets/background.png");
+  }
+}
+

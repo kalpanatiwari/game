@@ -1,0 +1,39 @@
+.gameprev-heading{
+    display: flex; 
+    font-weight: 900;
+    font-size: 3.3vw;
+    padding-left: 5vw;
+    margin-top: 5vw;
+    @media screen and (max-width:1000px) {
+        font-size: 6vw;
+        justify-content: center;
+        margin-top: 15vw;
+    }
+}
+.gameprev-heading h1{
+    color: #FFA800;
+}
+.gameprev-heading h2{
+    color:#353535;
+}
+.gameprev-item{
+    width: 25vw;
+    height:25vw;
+    font-weight: 800;
+    border: 1px solid #ddd;
+    background: #A6A6A6;
+    font-size: 20px;
+    border-radius: 30px;
+    text-align: center;
+    @media screen and (max-width:1100px) and (min-width:500px) {
+        width: 400px;
+        height: 400px;
+    }
+    @media screen and (max-width:500px) {
+        width: 280px;
+        height: 280px;
+    }
+}
+.gameprev-item img{
+    border-radius: 30px;
+}
