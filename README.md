@@ -10,8 +10,8 @@
 
 1. Clone the repository
 ```bash
-git clone https://github.com/kalpanatiwari/game
-cd gaming
+git clone https://github.com/kalpanatiwari
+cd game
 ```
 
 2. Install dependencies
